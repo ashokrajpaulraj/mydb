@@ -18,7 +18,10 @@ const client = new Client({
     database : "d9ro2tuu7timli",
     port : 5432,
     user : "wddylzwfzvcovw",
-    password : "8c75eecbd61c19ca9e498d79a52c2a4c317f065f9de04a8bc085353cbf6dd9bb"
+    password : "8c75eecbd61c19ca9e498d79a52c2a4c317f065f9de04a8bc085353cbf6dd9bb",
+    ssl:{
+        rejectUnauthorized: false
+    }
 })
 
 //connect
